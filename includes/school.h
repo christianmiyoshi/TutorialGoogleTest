@@ -7,9 +7,7 @@
 
 class School {
 public:
-    void addStudent(const Student& student) {
-        students.push_back(student);
-    }
+    void addStudent(const Student& student);
     std::vector<Student> getNotApprovedStudents() const;
 private:
     std::vector<Student> students;
